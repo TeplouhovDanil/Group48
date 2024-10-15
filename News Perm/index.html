@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пермский край афиша</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<head>
+  <style>
+    @font-face {
+      font-family: "Anonymous Pro";
+      src: url(AnonymousPro-Bold.ttf);
+      font-weight: 700;
+    }
+
+    @font-face {
+      font-family: "Anonymous Pro";
+      src: url(AnonymousPro-Regular.ttf);
+    }
+
+    h3 {
+      font-family: "Anonymous Pro", sans-serif;
+      font-size: 26px;
+
+    }
+
+    h2 {
+      font-family: "Anonymous Pro", sans-serif;
+      font-size: 48px;
+    }
+
+    p {
+      font-family: "Anonymous Pro", sans-serif;
+      font-size: 14px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(236, 234, 234);
+      margin: 0;
+      padding: 10px 10px 15px 10px;
+      border-radius:20px;
+
+    }
+
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+
+    body,
+    head {
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      margin: 0;
+      padding: 10px;
+    }
+
+    .footer {
+      background-color: #121723;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      padding: 0px 10% 0 10%;
+    }
+
+    .footer_text {
+      color: #A1A6B4;
+      text-align: center;
+    }
+
+    hr {
+      width: 100%;
+      background-color: #E6E8EC66;
+      border: none;
+      height: 1px;
+    }
+    .news {
+      margin: 1%;
+      padding: 1%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      background-color: rgb(255, 255, 255);
+      padding: 3%;
+      border-radius: 12px;
+    }
+    .animated-button {
+      padding: 10px 20px;
+      background-color: #f50808;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 15px;
+      transition: background-color 0.3s, transform 0.08s;
+      display: block;
+      margin: 1%;
+      padding: 1%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      width: 15%;
+     
+    }
+
+    
+
+    .animated-button:active {
+      transform: scale(0.95);
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 100px;
+      font-family: "Anonymous Pro", sans-serif;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      
+    }
+
+    .social-links {
+      list-style-type: none;
+      display: flex;
+    }
+
+    .social-links li {
+      margin-right: 10px;
+    }
+
+    .news-img {
+      width: 100%;
+    }
+
+    .list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .content {
+      margin: 0px 10% 0 10%;
+    }
+
+    .logo2 {
+      height: 2em;
+    }
+
+    .footer a {
+      color: #ffffff;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    navbar {
+      color: aliceblue
+    }
+
+    a {
+      color: black;
+    }
+
+    .news-text {
+      font-weight: bold;
+      font-size: 15px;
+      font-family: "Anonymous Pro", sans-serif;
+    }
+    .pm{
+      width: 398px;
+  color: rgba(85,85,85,1);
+  position: absolute;
+  top: 7px;
+  left: 118px;
+  font-family: IBM Plex Mono;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#">
+      <img src="logo.png" alt="Logo" class="logo">
+    </a><pm class="pm">ПЕРМСКИЙ КРАЙ АФИША</c>
+   
+  </header>
+
+  <div class="content">
+    
+    <div class="list">
+      <div class="animated-button">
+        <button class="animated-button">События</button>
+      </div>
+
+      <div class="animated-button">
+        <button class="animated-button">Новости</button>
+      </div>
+
+      <div class="animated-button">
+        <button class="animated-button">Кино</button>
+      </div>
+
+      <div class="animated-button">
+        <button class="animated-button">Концерты</button>
+      </div>
+
+      <div class="animated-button">
+        <button class="animated-button">театр</button>
+      </div>
+
+      <div class="content">
+        
+        <div class="list">
+          <div class="news">
+            <img class="news-img" src="./img/img1.jpg" alt="news 1">
+            <h3 class="news-name">Заголовок</h3>
+            <p class="news-text">текст</p>
+          </div>
+    
+          <div class="news">
+            <img class="news-img" src="img/2.png" alt="news 2">
+            <h3 class="news-name"></h3>
+            <p class="news-text"></p>
+          </div>
+    
+          <div class="news">
+            <img class="news-img" src="img/3.png" alt="news 3">
+            <h3 class="news-name"></h3>
+            <p class="news-text"></p>
+          </div>
+    
+          <div class="news">
+            <img class="news-img" src="img/4.png" alt="news 4">
+            <h3 class="news-name"></h3>
+            <p class="news-text"></p>
+          </div>
+    
+          <div class="news">
+            <img class="news-img" src="img/5.png" alt="news 5">
+            <h3 class="news-name">
+            </h3>
+            <p class="news-text"></p>
+          </div>
+    
+          <div class="news">
+            <img class="news-img" src="img/6.png" alt="news 6">
+            <h3 class="news-name"></h3>
+            <p class="news-text"></p>
+          </div>
+    
+          <div class="news">
+            <img class="news-img" src="img/7.png" alt="news 7">
+            <h3 class="news-name"></h3>
+            <p class="news-text"></p>
+          </div>
+    
+          <div class="news">
+            <img class="news-img" src="img/8.png" alt="news 8">
+            <h3 class="news-name"></h3>
+            <p class="news-text"></p>
+          </div>
+    
+          <div class="news">
+            <img class="news-img" src="img/9.png" alt="news 9">
+            <h3 class="news-name"></h3>
+            <p class="news-text"></p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__container">
+
+
+      
+      
+    </div>
+    <hr>
+    <p class="footer_text">
+      ПЕРМСКИЙ КРАЙ АФИША ® 2024
+    </p>
+  </footer>
+</body>
+
+</html>
