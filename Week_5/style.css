@@ -1,0 +1,99 @@
+@font-face {
+  font-family: AnonymousPro;
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: AnonymousPro;
+  font-weight: 700;
+  src: url(fonts/AnonymousPro-Bold.ttf);
+}
+
+:root {
+  --black: #121723;
+  --gray-100: #676B73;
+  --gray-300: #A1A6B4;
+}
+
+body {
+  background-color: #ebebeb;
+  font-family: AnonymousPro;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  color: var(--black);
+}
+
+h2 {
+  margin: 0 0 0.5em 0;
+  font-weight: 100;
+}
+
+h1 {
+  margin: 0 0 0.5em 0;
+  font-weight: 100;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  gap: 1em;
+}
+
+.links a{
+  text-decoration: none;
+}
+
+.header {
+  padding: 1em 10% 1em 10%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  margin-bottom: 1em;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.header a {
+  color: var(--black)
+}
+
+.content {
+  padding: 0 10%;
+  align-self: center;
+}
+
+.footer {
+  margin-top: 1em;
+  padding: 1em 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: var(--black);
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.footer hr {
+  border: 1px solid var(--gray-100);
+  width: 100%;
+  line-height: 1px;
+}
+
+.footer p {
+  color: var(--gray-300);
+  align-self: center;
+}
+
+.footer a {
+  color: white;
+}
+

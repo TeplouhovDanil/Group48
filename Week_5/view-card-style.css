@@ -1,0 +1,39 @@
+.card-info {
+  background-color: white;
+  padding: 48px;
+  border-radius: 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 700px;
+}
+
+.card-info img {
+  width: 100%;
+}
+
+.card-info .description {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info .description .container {
+  display: flex;
+  gap: 2em
+}
+
+.card-info .description .container .text {
+  flex: 1 1 0;
+}
+.card-info .description .container .global-info {
+  flex: 1 1 0;
+}
+
+.card-info .description .container .global-info .property {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-info .description .container .global-info hr {
+  border: 1px solid var(--black);
+}
